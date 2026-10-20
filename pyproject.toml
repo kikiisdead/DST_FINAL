@@ -1,0 +1,22 @@
+[project]
+name = "dst-final"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kikiisdead",email = "128185818+kikiisdead@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "scipy (>=1.18.1,<2.0.0)",
+    "soundfile (>=0.14.0,<0.15.0)",
+    "matplotlib (>=3.11.2,<4.0.0)",
+    "jupyter-book (>=2.1.7,<3.0.0)",
+    "ipykernel (>=7.4.0,<8.0.0)",
+    "ghp-import (>=2.1.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
