@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 086cd576-f7e9-441f-a542-33df931b7e4d
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/kikiisdead/DST_FINAL
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
